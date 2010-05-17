@@ -1,0 +1,39 @@
+%h2
+  Hey, What? Hey!
+%p
+  :plain
+  It's a little virtual festival, made out of
+  %a{:href => 'http://www.spotify.com'} Spotify
+  playlists. Make playlists for your friends, and listen to theirs.
+%h2
+  Huh?
+
+%p
+  You make a playlist and treat it like your 'stage' - pick the tunes you want. After you've made yours, go check out the other stages!
+
+%h2
+  Sounds cool. How do I get around the festival?
+
+%p
+  During the festival, tweet your playlist using the
+  %strong= '#spotstock'
+  hashtag. I'll make sure they all get here.
+
+%h2
+  Ace, when?
+
+%p
+  3rd May - 7th May, 2010.
+
+%h2 The Lineup!
+
+#lineup
+  %ul
+    - @stages.each do |stage|
+      %li
+        %strong= stage.host
+        %span= stage.name
+        %a{:href => stage.url}
+          Click here to listen
+
+

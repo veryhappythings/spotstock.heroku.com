@@ -1,0 +1,113 @@
+html {
+  color: #000;
+  background: #FFF; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+  font-style: inherit;
+  font-weight: inherit; }
+
+del, ins {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup {
+  vertical-align: baseline; }
+
+sub {
+  vertical-align: baseline; }
+
+legend {
+  color: #000; }
+
+input, button, textarea, select, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit; }
+
+input, button, textarea, select {
+  *font-size: 100%; }
+
+html {
+  background-color: #ffe77a; }
+
+body {
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica, Arial, 'Comic Sans';
+  font-size: 12px; }
+
+h1 {
+  font-size: 60px;
+  font-family: Helvetica, Arial, 'Comic Sans'; }
+
+h2 {
+  font-size: 20px;
+  font-family: Helvetica, Arial, 'Comic Sans';
+  padding-bottom: 10px; }
+
+strong {
+  font-weight: bold;
+  color: #111; }
+
+#wrap {
+  margin: 30px auto 0 auto;
+  width: 600px;
+  text-align: left; }
+
+#header {
+  width: 600px;
+  height: 100px; }
+  #header p {
+    color: !khaki;
+    padding-left: 70px; }
+
+#content {
+  width: 600px;
+  border-style: dashed;
+  border-color: #7f7a63;
+  border-width: 1px;
+  padding: 10px; }
+  #content p {
+    padding-bottom: 20px; }
+  #content #lineup ul {
+    margin-left: 10px; }
+    #content #lineup ul li {
+      padding-bottom: 10px; }
+      #content #lineup ul li .user {
+        font-weight: bold;
+        padding-right: 5px; }
+        #content #lineup ul li .user a {
+          text-decoration: none;
+          color: #030; }
+
+#footer {
+  padding-top: 10px;
+  text-align: center; }

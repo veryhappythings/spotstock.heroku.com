@@ -1,0 +1,23 @@
+!!!Strict
+%html{html_attrs('en-GB')}
+  %head
+    %title SpotStock
+    != stylesheet_link_tag('application')
+    != javascript_include_tag('mootools-1.2.4-core-yc')
+
+  %body
+    #wrap
+      != render 'layouts/header'
+      #content
+        != yield
+      != render 'layouts/footer'
+
+    :javascript
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    :javascript
+      try {
+      var pageTracker = _gat._getTracker("UA-16153120-1");
+      pageTracker._trackPageview();
+      } catch(err) {}
+

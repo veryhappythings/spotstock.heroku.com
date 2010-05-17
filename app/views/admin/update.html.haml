@@ -1,0 +1,13 @@
+%h2
+  Additions
+%ul
+  - @additions.each do |a|
+    %li=a
+
+%h2
+  Stages
+  != "(#{@stages.length})"
+  %ul
+    - @stages.each do |s|
+      %li=s.url
+
